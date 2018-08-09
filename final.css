@@ -1,10 +1,52 @@
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
+#thug {
+  height: 300px;
+  width: 200px;
 }
 
-body{
-  color: grey;
-  text-align: center;
+
+#otcu {
+  height: 300px;
+  width: 200px;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+body, h3, html {
+  background-color: pink;/* Green */
+      /* color: #ffffff; */
+  }
+
+.info {
+  background-color: pink;
+}
+
+.navbar-defaul {
+  vertical-align: middle;
+  /* background: pink !important; */
+}
+
+.navbar .navbar-inverse .navbar-nav {
+  vertical-align: middle;
+    margin-bottom: 0;
+    padding: 0;
+
+}
+
+.column {
+  margin: auto;
+  width:100%;
+  padding:5px;
+  align-content: center;
+}
+#pic {
+  display : block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
 }
