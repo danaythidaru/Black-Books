@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Black Books - Maya Angelou</title>
@@ -17,32 +17,41 @@
         <a class="navbar-brand" href="test.html"><strong><p style="font-size:50px;">Black Books</p></strong></a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="comedy.html">Comedy</a></li>
+            <li><a href="poetry.html">Poetry</a></li>
+            <li><a href="narrative.html">Narrative</a></li>
+          </ul>
+        </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="angiethomas.html">Angie Thomas</a></li>
             <li><a href="mayaangelou.html">Maya Angelou</a></li>
             <li><a href="jacquelinewoodson.html">Jacqueline Woodson</a></li>
+            <li><a href="octaviabutler.html">Octavia Butler</a></li>
           </ul>
-        </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Comedy</a></li>
-            <li><a href="#">Poetry</a></li>
-            <li><a href="#">Narrative</a></li>
-        </ul>
       </ul>
     </div>
   </nav>
 
-  <p>
-
-    <div class="mayabooks">
-    <img id=1 src="https://images.penguinrandomhouse.com/cover/9780307802064">
-    <img id=2 src="https://justbrowsingopl.files.wordpress.com/2014/05/content-chilifresh4.gif">
-
+  <div class= "mayabooks">
+    <div class="column"
+      <p>
+        <img id=bird src="https://images-na.ssl-images-amazon.com/images/I/518l0Gbkc6L._SX316_BO1,204,203,200_.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images-na.ssl-images-amazon.com/images/I/518l0Gbkc6L._SX316_BO1,204,203,200_.jpg', 'blank2', 'I Know Why The Caged Bird Sings')">I Know Why The Caged Bird Sings</a>
+      </p>
+      <p>
+        <img id=asir src="https://images-na.ssl-images-amazon.com/images/I/61%2BsstGFqRL._SX316_BO1,204,203,200_.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images-na.ssl-images-amazon.com/images/I/61%2BsstGFqRL._SX316_BO1,204,203,200_.jpg', 'blank2', 'And Still I Rise')">And Still I Rise</a>
+      </p>
+    </div>
+    <div class="column">
+        <img id=blank src= "https://kawaii.kawaii.at/img/solid-black-fabric-Robert-Kaufman-USA-Black-179487-1.JPG">
+        <p><span id="blank2"></span></p>
+    </div>
   </div>
 
-  </p>
 
 </body>
 </html>
