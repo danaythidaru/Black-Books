@@ -9,9 +9,53 @@
   width: 200px;
 }
 
+#bgd {
+  height: 300px;
+  width: 200px;
+}
+
+#tos {
+  height: 300px;
+  width: 200px;
+}
+#kindres {
+  height: 300px;
+  width: 200px;
+}
+#ws {
+  height: 300px;
+  width: 200px;
+}
+
 
 .column {
     float: left;
     width: 50%;
     padding: 5px;
+}
+
+#blank {
+  height: 500px;
+  width: 400px;
+  visibility: hidden;
+}
+
+html, body{
+  background-color: pink;
+}
+
+.home {
+  float: left;
+  margin: auto;
+  width:100%;
+  padding:5px;
+  align-content: center;
+  background-color: pink;
+}
+#pic {
+  display : block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
 }
