@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Black Books - Jacqueline Woodson</title>
@@ -17,33 +17,40 @@
         <a class="navbar-brand" href="test.html"><strong><p style="font-size:50px;">Black Books</p></strong></a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="comedy.html">Comedy</a></li>
+            <li><a href="poetry.html">Poetry</a></li>
+            <li><a href="narrative.html">Narrative</a></li>
+          </ul>
+        </li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="angiethomas.html">Angie Thomas</a></li>
             <li><a href="mayaangelou.html">Maya Angelou</a></li>
             <li><a href="jacquelinewoodson.html">Jacqueline Woodson</a></li>
-          </ul>
-        </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Comedy</a></li>
-            <li><a href="#">Poetry</a></li>
-            <li><a href="#">Narrative</a></li>
-
+            <li><a href="octaviabutler.html">Octavia Butler</a></li>
           </ul>
       </ul>
     </div>
   </nav>
 
-  <p>
-
-    <div class="jacquelinebooks">
-    <img id=1 src="https://images.penguinrandomhouse.com/cover/9780147515827">
-    <img id=2 src="https://target.scene7.com/is/image/Target/52997373?wid=488&hei=488&fmt=pjpeg">
-
+  <div class= "jacuelinebooks">
+    <div class="column"
+      <p>
+        <img id=bgd src="https://images.penguinrandomhouse.com/cover/9780147515827">
+        <a href="#" onclick = "changeContent('blank','https://images.penguinrandomhouse.com/cover/9780147515827', 'blank2', 'Brown Girl Dreaming')">Brown Girl Dreaming</a>
+      </p>
+      <p>
+        <img id=tos src="https://www.booktopia.com.au/http_coversbooktopiacomau/600/9780399231162/the-other-side.jpg">
+        <a href="#" onclick = "changeContent('blank','https://www.booktopia.com.au/http_coversbooktopiacomau/600/9780399231162/the-other-side.jpg', 'blank2', 'The Other Side')">The Other Side</a>
+      </p>
+    </div>
+    <div class="column">
+        <img id=blank src= "https://kawaii.kawaii.at/img/solid-black-fabric-Robert-Kaufman-USA-Black-179487-1.JPG">
+        <p><span id="blank2"></span></p>
+    </div>
   </div>
-
-  </p>
 
 </body>
 </html>
