@@ -1,10 +1,17 @@
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 5px;
+#thug {
+  height: 300px;
+  width: 200px;
 }
 
-body{
-  color: grey;
-  text-align: center;
+
+#otcu {
+  height: 300px;
+  width: 200px;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
 }
