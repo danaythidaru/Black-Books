@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Black Books</title>
+  <title>Black Books - Angie Thomas</title>
   <link rel="stylesheet" href="final.css">
   <script type="text/javascript" src="final.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,24 +17,38 @@
         <a class="navbar-brand" href="test.html"><strong><p style="font-size:50px;">Black Books</p></strong></a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres <span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li><a href="comedy.html">Comedy</a></li>
             <li><a href="poetry.html">Poetry</a></li>
             <li><a href="narrative.html">Narrative</a></li>
-            <li><a href="comedy.html">Comedy</a></li>
           </ul>
         </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors <span class="caret"></span></a>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="angiethomas.html">Angie Thomas</a></li>
-            <li><a href="#">Maya Angelou</a></li>
-            <li><a href="#">Jacqueline Woodson</a></li>
-            <li><a href="#">Ibi Zoboi</a></li>
-            <li><a href="#">Octavia Butler</a></li>
+            <li><a href="mayaangelou.html">Maya Angelou</a></li>
+            <li><a href="jacquelinewoodson.html">Jacqueline Woodson</a></li>
+            <li><a href="octaviabutler.html">Octavia Butler</a></li>
           </ul>
       </ul>
     </div>
   </nav>
 
-</body>
-</html>
+
+  <div class= "angiebooks">
+    <div class="column"
+      <p>
+        <img id=thug src="https://images-na.ssl-images-amazon.com/images/I/41kgwbtjUIL.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images-na.ssl-images-amazon.com/images/I/41kgwbtjUIL.jpg', 'blank2', 'The Hate U Give')">The Hate U Give</a>
+      </p>
+      <p>
+        <img id=otcu src="https://images.gr-assets.com/books/1518828894l/35068618.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images.gr-assets.com/books/1518828894l/35068618.jpg', 'blank2', 'On The Come Up')">On The Come Up</a>
+      </p>
+    </div>
+    <div class="column">
+        <img id=blank src= "https://kawaii.kawaii.at/img/solid-black-fabric-Robert-Kaufman-USA-Black-179487-1.JPG">
+        <p><span id="blank2"></span></p>
+    </div>
+  </div>
