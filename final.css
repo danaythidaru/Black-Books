@@ -1,47 +1,154 @@
 #thug {
   height: 300px;
   width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
 }
-
-
 #otcu {
   height: 300px;
   width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
 }
-
 #bgd {
   height: 300px;
   width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
 }
-
 #tos {
   height: 300px;
   width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
 }
-#kindres {
+#kindred {
   height: 300px;
   width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
 }
 #ws {
   height: 300px;
   width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+#bgm {
+  height: 300px;
+  width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+#aap {
+  height: 300px;
+  width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+#tbe {
+  height: 300px;
+  width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+#im {
+  height: 300px;
+  width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+#wkb {
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+  height: 300px;
+  width: 200px;
+}
+#htbb {
+  height: 300px;
+  width: 200px;
+  background-color: lightgrey;
+
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
 }
 
+#bird {
+  height: 300px;
+  width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+}
 
+#asir {
+  height: 300px;
+  width: 200px;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+}
 .column {
     float: left;
     width: 50%;
-    padding: 5px;
+    padding-left: 50px;
+    padding-right: 20px;
 }
 
 #blank {
   height: 500px;
   width: 400px;
   visibility: hidden;
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+}
+#blank2{
+
 }
 
-html, body{
-  background-color: pink;
+html{
+  background-color: lavender;
 }
 
 .home {
@@ -50,12 +157,60 @@ html, body{
   width:100%;
   padding:5px;
   align-content: center;
-  background-color: pink;
+  background-color: lavender;
+
 }
 #pic {
   display : block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 27%;
+}
 
+.text {
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.resources {
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.favorites{
+  background-color: lightgrey;
+  width: 300px;
+  border: 25px;
+  padding: 25px;
+  margin: 25px;
+  text-align: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+
+#title{
+  font-size: 40px;
+  color: #646568;
+  padding-left: 50px;
 }
