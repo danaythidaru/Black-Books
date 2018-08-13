@@ -53,6 +53,39 @@ function changeContent(id1, content1, id2, title)
 		summary.innerHTML = wsinfo;
 	}
 
+	if (title == "Black Girl Magic")
+	{
+		var summary = document.getElementById(id2);
+		summary.innerHTML = bgminfo;
+	}
+	if (title == "African American Poetry")
+	{
+		var summary = document.getElementById(id2);
+		summary.innerHTML = aapinfo;
+	}
+
+	if (title == "The Bluest Eye")
+	{
+		var summary = document.getElementById(id2);
+		summary.innerHTML = tbeinfo;
+	}
+	if (title == "Invisible Man")
+	{
+		var summary = document.getElementById(id2);
+		summary.innerHTML = iminfo;
+	}
+
+	if (title == "wkb")
+	{
+		var summary = document.getElementById(id2);
+		summary.innerHTML = wkbinfo;
+	}
+
+	if (title == "How To Be Black")
+	{
+		var summary = document.getElementById(id2);
+		summary.innerHTML = htbbinfo;
+	}
 }
 
 
@@ -73,3 +106,15 @@ var birdsinfo = "Sent by their mother to live with their devout, self-sufficient
 var kindredinfo = "The first science fiction written by a black woman, Kindred has become a cornerstone of black American literature. This combination of slave memoir, fantasy, and historical fiction is a novel of rich literary complexity. Having just celebrated her 26th birthday in 1976 California, Dana, an African-American woman, is suddenly and inexplicably wrenched through time into antebellum Maryland. After saving a drowning white boy there, she finds herself staring into the barrel of a shotgun and is transported back to the present just in time to save her life. During numerous such time-defying episodes with the same young man, she realizes the challenge she’s been given: to protect this young slaveholder until he can father her own great-grandmother."
 
 var wsinfo = "Doro is an entity who changes bodies like clothes, killing his hosts by reflex or design. He fears no one until he meets Anyanwu. Anyanwu is a shapeshifter who can absorb bullets and heal with a kiss and savage anyone who threatens her. She fears no one until she meets Doro. Together they weave a pattern of destiny (from Africa to the New World) unimaginable to mortals."
+
+var bgminfo = "The BreakBeat Poets Vol. 2: Black Girl Magic continues and deepens the work of the first BreakBeat Poets anthology by focusing on some of the most exciting Black women writing today. This anthology breaks up the myth of hip-hop as a boys’ club, and asserts the truth that the cypher is a feminine form."
+
+var aapinfo = "The newest addition to the acclaimed Poetry for Young People series shines a light on the power and beauty of African-American verse. Co-editors Arnold Rampersad and Marcellus Blount—both towering figures in literary criticism—have put together an impressive anthology that will open up a world of wonderful word images for children. The classic poems come from some of the most influential and celebrated African-American writers in history, including Langston Hughes, Gwendolyn Brooks, Countee Cullen, Lucille Clifton, and James Baldwin. Helpful and generous annotations, a lively introduction, and beautiful illustrations by Karen Barbour make this the ideal book to introduce young readers to the marvels of poetry."
+
+var tbeinfo = "The Bluest Eye is Toni Morrison's first novel, a book heralded for its richness of language and boldness of vision. Set in the author's girlhood hometown of Lorain, Ohio, it tells the story of black, eleven-year-old Pecola Breedlove. Pecola prays for her eyes to turn blue so that she will be as beautiful and beloved as all the blond, blue-eyed children in America. In the autumn of 1941, the year the marigolds in the Breedloves' garden do not bloom. Pecola's life does change- in painful, devastating ways. What its vivid evocation of the fear and loneliness at the heart of a child's yearning, and the tragedy of its fulfillment. The Bluest Eye remains one of Tony Morrisons's most powerful, unforgettable novels- and a significant work of American fiction."
+
+var iminfo = "First published in 1952 and immediately hailed as a masterpiece, Invisible Man is one of those rare novels that have changed the shape of American literature. For not only does Ralph Ellison's nightmare journey across the racial divide tell unparalleled truths about the nature of bigotry and its effects on the minds of both victims and perpetrators, it gives us an entirely new model of what a novel can be. As he journeys from the Deep South to the streets and basements of Harlem, from a horrifying 'battle royal' where black men are reduced to fighting animals, to a Communist rally where they are elevated to the status of trophies, Ralph Ellison's nameless protagonist ushers readers into a parallel universe that throws our own into harsh and even hilarious relief. Suspenseful and sardonic, narrated in a voice that takes in the symphonic range of the American language, black and white, Invisible Man is one of the most audacious and dazzling novels of our century."
+
+var wkbinfo = "The Awkward Thoughts of W. Kamau Bell is a humorous, well-informed take on the world today, tackling a wide range of issues, such as race relations; fatherhood; the state of law enforcement today; comedians and superheroes; right-wing politics; left-wing politics; failure; his interracial marriage; white men; his up-bringing by very strong-willed, race-conscious, yet ideologically opposite parents; his early days struggling to find his comedic voice, then his later days struggling to find his comedic voice; why he never seemed to fit in with the Black comedy scene . . . or the white comedy scene; how he was a Black nerd way before that became a thing; how it took his wife and an East Bay lesbian to teach him that racism and sexism often walk hand in hand; and much, much more."
+
+var htbbinfo = "Baratunde Thurston shares his 30-plus years of expertise in being black, with helpful essays like “How to Be the Black Friend,” “How to Speak for All Black People,” “How To Celebrate Black History Month,” and more, in this satirical guide to race issues—written for black people and those who love them. Audacious, cunning, and razor-sharp, How to Be Black exposes the mass-media’s insidiously racist, monochromatic portrayal of black culture’s richness and variety. Fans of Stuff White People Like, This Week in Blackness, and Ending Racism in About an Hour will be captivated, uplifted, incensed, and inspired by this hilarious and powerful attack on America’s blacklisting of black culture: Baratunde Thurston’s How to Be Black."
