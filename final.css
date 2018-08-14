@@ -1,107 +1,95 @@
 #thug {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #otcu {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #bgd {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #tos {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #kindred {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #ws {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #bgm {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #aap {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #tbe {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #im {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-  width: 300px;
   border: 25px;
   padding: 25px;
   margin: 25px;
 }
 #wkb {
   background-color: lightgrey;
-  width: 300px;
+  width: 250px;
   border: 25px;
   padding: 25px;
   margin: 25px;
   height: 300px;
-  width: 200px;
 }
 #htbb {
   height: 300px;
-  width: 200px;
+  width: 250px;
   background-color: lightgrey;
-
   border: 25px;
   padding: 25px;
   margin: 25px;
@@ -109,9 +97,8 @@
 
 #bird {
   height: 300px;
-  width: 200px;
   background-color: lightgrey;
-  width: 300px;
+  width: 250px;
   border: 25px;
   padding: 25px;
   margin: 25px;
@@ -119,9 +106,8 @@
 
 #asir {
   height: 300px;
-  width: 200px;
   background-color: lightgrey;
-  width: 300px;
+  width: 250px;
   border: 25px;
   padding: 25px;
   margin: 25px;
@@ -198,6 +184,7 @@ html{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 5px;
+  margin-left: 50px;
 }
 
 .grid2{
