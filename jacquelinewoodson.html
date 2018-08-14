@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Black Books - Jacqueline Woodson</title>
@@ -11,41 +11,57 @@
 </head>
 <body>
 
+  <!-- Navigation Bar -->
+
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="test.html"><strong><p style="font-size:50px;">Black Books</p></strong></a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="poetry.html">Poetry</a></li>
+            <li><a href="novels.html">Novels</a></li>
+            <li><a href="comedy.html">Comedy</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown Menu -->
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="angiethomas.html">Angie Thomas</a></li>
             <li><a href="mayaangelou.html">Maya Angelou</a></li>
             <li><a href="jacquelinewoodson.html">Jacqueline Woodson</a></li>
-          </ul>
-        </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Comedy</a></li>
-            <li><a href="#">Poetry</a></li>
-            <li><a href="#">Narrative</a></li>
-
+            <li><a href="octaviabutler.html">Octavia Butler</a></li>
           </ul>
       </ul>
     </div>
   </nav>
 
-  <p>
 
-    <div class="jacquelinebooks">
+  <div class= "jacuelinebooks">
+    <div class="column">
+      <h1 id=title>Jacqueline Woodson</h1>
       <p>
-    <img id=bgd src="https://images.penguinrandomhouse.com/cover/9780147515827">
-    kj
-    <img id=2 src="https://www.booktopia.com.au/http_coversbooktopiacomau/600/9780399231162/the-other-side.jpg">
-
+        <img id=bgd src="https://images.penguinrandomhouse.com/cover/9780147515827">
+        <a href="#" onclick = "changeContent('blank','https://images.penguinrandomhouse.com/cover/9780147515827', 'blank2', 'Brown Girl Dreaming')">Brown Girl Dreaming</a>
+        <p><a id=link href="https://www.amazon.com/Brown-Girl-Dreaming-Jacqueline-Woodson/dp/0147515823/ref=sr_1_1?ie=UTF8&qid=1534266421&sr=8-1&keywords=brown+girl+dreaming&smid=ATVPDKIKX0DER">Interested in buying?</a></p>
+      </p>
+      <p>
+        <img id=tos src="https://www.booktopia.com.au/http_coversbooktopiacomau/600/9780399231162/the-other-side.jpg">
+        <a href="#" onclick = "changeContent('blank','https://www.booktopia.com.au/http_coversbooktopiacomau/600/9780399231162/the-other-side.jpg', 'blank2', 'The Other Side')">The Other Side</a>
+        <p><a id=link href="https://www.amazon.com/Other-Side-Jacqueline-Woodson/dp/0399231161/ref=sr_1_3?ie=UTF8&qid=1534266501&sr=8-3&keywords=the+other+side">Interested in buying?</a></p>
+      </p>
+    </div>
+    <div class="column">
+      <div class= grid2>
+        <img id=blank src= "https://kawaii.kawaii.at/img/solid-black-fabric-Robert-Kaufman-USA-Black-179487-1.JPG">
+        <p><span id="blank2"></span></p>
+      </div>
+    </div>
   </div>
-
-  </p>
 
 </body>
 </html>
