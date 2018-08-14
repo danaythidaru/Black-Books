@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Black Books - Novels</title>
+  <link rel="stylesheet" href="final.css">
+  <script type="text/javascript" src="final.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="test.html"><strong><p style="font-size:50px;">Black Books</p></strong></a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="poetry.html">Poetry</a></li>
+            <li><a href="novels.html">Novels</a></li>
+            <li><a href="comedy.html">Comedy</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown Menu -->
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="angiethomas.html">Angie Thomas</a></li>
+            <li><a href="mayaangelou.html">Maya Angelou</a></li>
+            <li><a href="jacquelinewoodson.html">Jacqueline Woodson</a></li>
+            <li><a href="octaviabutler.html">Octavia Butler</a></li>
+          </ul>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class= "novels">
+    <div class="column"
+      <p>
+        <img id=tbe src="https://images.gr-assets.com/books/1315389431l/5219.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images.gr-assets.com/books/1315389431l/5219.jpg', 'blank2', 'The Bluest Eye')">The Bluest Eye</a>
+          <p><a id=link href="https://www.amazon.com/Bluest-Eye-Morrison-Toni-Paperback/dp/B008AUUGAQ/ref=sr_1_12?ie=UTF8&qid=1534265498&sr=8-12&keywords=the+bluest+eye">Interested in buying?</a></p>
+        </p>
+      <p>
+
+        <img id=im src="https://images-na.ssl-images-amazon.com/images/I/51NIZqFLvJL._SX322_BO1,204,203,200_.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images-na.ssl-images-amazon.com/images/I/51NIZqFLvJL._SX322_BO1,204,203,200_.jpg', 'blank2', 'Invisible Man')">Invisible Man</a>
+        <p><a id=link href="https://www.amazon.com/Invisible-Man-Ralph-Ellison/dp/0679732764/ref=sr_1_2?ie=UTF8&qid=1534265691&sr=8-2&keywords=invisible+man+ralph+ellison">Interested in buying?</a><p>
+      </p>
+    </div>
+    <div class="column">
+      <div class= grid2>
+        <img id=blank src= "https://kawaii.kawaii.at/img/solid-black-fabric-Robert-Kaufman-USA-Black-179487-1.JPG">
+        <p><span id="blank2"></span></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
