@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <title>Black Books - Angie Thomas</title>
@@ -11,37 +11,54 @@
 </head>
 <body>
 
+   <!-- Navigation Bar -->
+
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="test.html"><strong><p style="font-size:50px;">Black Books</p></strong></a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="poetry.html">Poetry</a></li>
+            <li><a href="novels.html">Novels</a></li>
+            <li><a href="comedy.html">Comedy</a></li>
+          </ul>
+        </li>
+
+        <!-- Dropdown Menu -->
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="angiethomas.html">Angie Thomas</a></li>
             <li><a href="mayaangelou.html">Maya Angelou</a></li>
             <li><a href="jacquelinewoodson.html">Jacqueline Woodson</a></li>
-          </ul>
-        </li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Comedy</a></li>
-            <li><a href="#">Poetry</a></li>
-            <li><a href="#">Narrative</a></li>
+            <li><a href="octaviabutler.html">Octavia Butler</a></li>
           </ul>
       </ul>
     </div>
   </nav>
 
 
-  <div class="angiebooks">
-    <p>
-    <img id=thug src="https://images-na.ssl-images-amazon.com/images/I/41kgwbtjUIL.jpg">
-  </p>
-
-  <p>
-    <img id=otcu src="https://images.gr-assets.com/books/1518828894l/35068618.jpg">
-  </P>
-
+  <div class= "angiebooks">
+    <div class="column">
+      <h1 id=title>Angie Thomas</h1>
+      <p>
+        <img id=thug src="https://images-na.ssl-images-amazon.com/images/I/41kgwbtjUIL.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images-na.ssl-images-amazon.com/images/I/41kgwbtjUIL.jpg', 'blank2', 'The Hate U Give')">The Hate U Give</a>
+        <p><a id=link href="https://www.amazon.com/Hate-U-Give-Angie-Thomas/dp/0062498533/ref=sr_1_1?ie=UTF8&qid=1534266082&sr=8-1&keywords=the+hate+you+give&smid=ATVPDKIKX0DER">Interested in buying?</a></p>
+      </p>
+      <p>
+        <img id=otcu src="https://images.gr-assets.com/books/1518828894l/35068618.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images.gr-assets.com/books/1518828894l/35068618.jpg', 'blank2', 'On The Come Up')">On The Come Up</a>
+        <p><a id=link href="https://www.amazon.com/Come-Up-Angie-Thomas/dp/0062498568/ref=sr_1_1?ie=UTF8&qid=1534266151&sr=8-1&keywords=on+the+come+up">Interested in buying?</a></p>
+      </p>
+    </div>
+    <div class="column">
+      <div class= grid2>
+        <img id=blank src= "https://kawaii.kawaii.at/img/solid-black-fabric-Robert-Kaufman-USA-Black-179487-1.JPG">
+        <p><span id="blank2"></span></p>
+      </div>
+    </div>
   </div>
