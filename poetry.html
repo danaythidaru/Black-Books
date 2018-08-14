@@ -10,6 +10,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
+
+  <!-- Navigation Bar -->
 <body>
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -20,27 +22,45 @@
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Genres <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="poetry.html">Poetry</a></li>
-            <li><a href="narrative.html">Narrative</a></li>
+            <li><a href="novels.html">Novels</a></li>
             <li><a href="comedy.html">Comedy</a></li>
           </ul>
         </li>
+
+        <!-- Dropdown Menu -->
+
           <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Authors <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Angie Thomas</a></li>
-            <li><a href="#">Maya Angelou</a></li>
-            <li><a href="#">Jacqueline Woodson</a></li>
-            <li><a href="#">Ibi Zoboi</a></li>
-            <li><a href="#">Octavia Butler</a></li>
+            <li><a href="angiethomas.html">Angie Thomas</a></li>
+            <li><a href="mayaangelou.html">Maya Angelou</a></li>
+            <li><a href="jacquelinewoodson.html">Jacqueline Woodson</a></li>
+            <li><a href="octaviabutler.html">Octavia Butler</a></li>
           </ul>
       </ul>
     </div>
   </nav>
 
-  <div class="wrapper">
-    <img id=1 src="https://d1ldy8a769gy68.cloudfront.net/300/978/125/017/372/0/9781250173720.jpg">
-    <img id=2 src="https://images-na.ssl-images-amazon.com/images/I/51zhd2sIgwL._SX258_BO1,204,203,200_.jpg">
+
+  <div class= "poetry">
+    <div class="column"
+      <p>
+        <img id=bgm src="https://cdn-ed.haymarketbooks.org/images/000002/271/Black_Girl_Magic_Cover_8-f_large-4a29fedfd8d623c98c4313ddf4c6d767.jpg">
+        <a href="#" onclick = "changeContent('blank','https://cdn-ed.haymarketbooks.org/images/000002/271/Black_Girl_Magic_Cover_8-f_large-4a29fedfd8d623c98c4313ddf4c6d767.jpg', 'blank2', 'Black Girl Magic')">Black Girl Magic</a>
+        <p><a id=link href="https://www.amazon.com/BreakBeat-Poets-Vol-Black-Magic/dp/1608468577/ref=sr_1_1?ie=UTF8&qid=1534264901&sr=8-1&keywords=black+girl+magic+book">Interested in buying?</a></p>
+      </p>
+      <p>
+        <img id=aap src="https://images-na.ssl-images-amazon.com/images/I/51zhd2sIgwL._SX258_BO1,204,203,200_.jpg">
+        <a href="#" onclick = "changeContent('blank','https://images-na.ssl-images-amazon.com/images/I/51zhd2sIgwL._SX258_BO1,204,203,200_.jpg', 'blank2', 'African American Poetry')">African American Poetry</a>
+        <p><a id=link href="https://www.amazon.com/Poetry-Young-People-African-American/dp/1402716893/ref=sr_1_4?ie=UTF8&qid=1534265212&sr=8-4&keywords=african+american+poetry">Interested in buying?</a></p>
+      </p>
+    </div>
+    <div class="column">
+      <div class= grid2>
+        <img id=blank src= "https://kawaii.kawaii.at/img/solid-black-fabric-Robert-Kaufman-USA-Black-179487-1.JPG">
+        <p><span id="blank2"></span></p>
+      </div>
+    </div>
   </div>
 
-  <li><a href="#" onclick = "changeContent ('img','img src="https://images-na.ssl-images-amazon.com/images/I/51zhd2sIgwL._SX258_BO1,204,203,200_.jpg')">link</a></li>
 </body>
 </html>
